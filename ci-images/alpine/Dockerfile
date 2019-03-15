@@ -1,6 +1,4 @@
-FROM docker:18
-
-USER root
+FROM alpine:edge
 
 RUN apk add --update --no-cache jq wget py-pip curl bash git openssh-client
 
